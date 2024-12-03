@@ -1,0 +1,14 @@
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/bin/Debug/net8.0/TicTacToe
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/bin/Debug/net8.0/TicTacToe.deps.json
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/bin/Debug/net8.0/TicTacToe.runtimeconfig.json
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/bin/Debug/net8.0/TicTacToe.dll
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/bin/Debug/net8.0/TicTacToe.pdb
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.AssemblyInfoInputs.cache
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.AssemblyInfo.cs
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.csproj.CoreCompileInputs.cache
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.dll
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/refint/TicTacToe.dll
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.pdb
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.genruntimeconfig.cache
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/ref/TicTacToe.dll
