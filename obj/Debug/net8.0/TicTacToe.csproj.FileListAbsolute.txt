@@ -12,3 +12,4 @@
 /home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.pdb
 /home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.genruntimeconfig.cache
 /home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/ref/TicTacToe.dll
+/home/moein/Desktop/linuxDev/TicTacToe/TicTacToe/obj/Debug/net8.0/TicTacToe.sourcelink.json

@@ -15,6 +15,7 @@
 
     byte turns = 0;
     bool gameIsOn = true;
+
     while (gameIsOn)
     {
       BoardOnConsole();
@@ -22,32 +23,40 @@
       Arrow();
       string userInput = Console.ReadLine();
 
+      // check for user input is valid or not
       if (int.TryParse(userInput, out int input) && input >= 1 && input <= 9)
       {
+        // check the position is occupied or not to replace it
         if (Replacement(input))
         {
           turns++;
+          //does we have winner?
           if (CheckForWin())
           {
             Replacement(input);
+            BoardOnConsole();
             Console.WriteLine($"{currentUser} Won!");
             gameIsOn = false;
           }
+          // is it draw?
           else if (turns == 9)
           {
             Console.WriteLine("DRAW!");
             gameIsOn = false;
           }
+          // none of above, continue
           else
           {
             currentUser = currentUser == 'X' ? 'O' : 'X';
           }
         }
+        // if it was occupied
         else
         {
           Console.WriteLine("This index is occupied!");
         }
       }
+      // if input wasnt valid
       else Console.WriteLine("You entered wrong input!");
     }
   }
@@ -65,8 +74,8 @@
 
   static bool Replacement(int input)
   {
-    int boardCol = (input - 1) / 3;
-    int boardRow = (input - 1) % 3;
+    int boardRow = (input - 1) / 3;
+    int boardCol = (input - 1) % 3;
 
     if (Board[boardRow, boardCol] != 'X' && Board[boardRow, boardCol] != 'O')
     {
